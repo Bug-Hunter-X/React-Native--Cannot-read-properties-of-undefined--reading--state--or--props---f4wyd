@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has fully mounted.  This often happens inside lifecycle methods like `constructor` or before `componentDidMount` has completed.  The solution is to make sure that any access to state or props happens after the component has mounted.
